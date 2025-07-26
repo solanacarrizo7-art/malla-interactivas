@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Malla Ingeniería Industrial - UNT</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header>
+        <h1>Malla Interactiva - Ingeniería Industrial</h1>
+        <h2>Universidad Nacional de Tucumán</h2>
+    </header>
+    <main>
+        <section id="malla">
+            <div class="year" id="año1">
+                <h3>1er Año</h3>
+                <div class="cuatrimestre">
+                    <div class="materia" onclick="toggle(this)">Álgebra</div>
+                    <div class="materia" onclick="toggle(this)">Análisis Matemático I</div>
+                    <div class="materia" onclick="toggle(this)">Física I</div>
+                </div>
+                <div class="cuatrimestre">
+                    <div class="materia" onclick="toggle(this)">Química</div>
+                    <div class="materia" onclick="toggle(this)">Computación</div>
+                    <div class="materia" onclick="toggle(this)">Estática</div>
+                </div>
+            </div>
+            <div class="year" id="año2">
+                <h3>2do Año</h3>
+                <div class="cuatrimestre">
+                    <div class="materia" onclick="toggle(this)">Análisis Matemático II</div>
+                    <div class="materia" onclick="toggle(this)">Física II</div>
+                    <div class="materia" onclick="toggle(this)">Probabilidad y Estadística</div>
+                </div>
+                <div class="cuatrimestre">
+                    <div class="materia" onclick="toggle(this)">Termodinámica</div>
+                    <div class="materia" onclick="toggle(this)">Resistencia de Materiales</div>
+                    <div class="materia" onclick="toggle(this)">Economía</div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
